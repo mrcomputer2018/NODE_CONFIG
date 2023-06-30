@@ -3,11 +3,13 @@
 - iniciar projeto
 - instalar o typescript
 - iniciar o typescript
-- editar o tsconfig
+- editar o tsconfig.json
 - criar a pasta src e o arquivo server.ts
 - instalar o express so para ver funcionando e sua tipagem
 - instalar o ts-node-dev em desenvolvimento
 - criar script DEV
+/*"scripts": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules src/server.ts",*/
+
 - Alterar o tsconfig
 
     -"target": "es2017",
@@ -25,3 +27,6 @@
     -"resolveJsonModule": true, /*Enable importing .json files.*/
 
 - Adicionar dist para o gitignore
+- Instalar o eslint em desenvolvimento ( yarn add eslint - D)
+- Iniciar Eslint
+
